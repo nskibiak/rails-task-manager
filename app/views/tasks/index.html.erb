@@ -4,14 +4,12 @@
   <div class="task-line">
     <input type="checkbox" <%= "checked" if task.completed == true %> >
     <label><%= link_to task.title, task_path(task) %></label>
-    <%= link_to "[Delete]", task_path(task),
+    <%= link_to '<i class="far fa-trash-alt"></i>'.html_safe, task_path(task),
       method: :delete,
-      data: { confirm: "Are you sure?" } %><i class="far fa-trash-alt"></i>
+      data: { confirm: "Are you sure?" } %>
   </div>
 <% end %>
 
 <hr>
 
 <%= link_to "Add a new task!", new_path %>
-
-
