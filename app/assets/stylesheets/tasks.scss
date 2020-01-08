@@ -10,6 +10,12 @@ h1 {
   margin-bottom: .5em;
 }
 
+.task-bar {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
 .task-line {
   margin-bottom: 1em;
 }
