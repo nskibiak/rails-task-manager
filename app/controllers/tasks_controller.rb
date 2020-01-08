@@ -16,12 +16,15 @@ class TasksController < ApplicationController
     @task.save
     redirect_to task_path(@task)
   end
-  # def edit
-  # end
-  # def update
-  # end
-  # def destroy
-  # end
+
+  def edit
+  end
+
+  def update
+  end
+
+  def destroy
+  end
 
   private
 
