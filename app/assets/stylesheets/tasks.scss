@@ -3,6 +3,11 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 body {
   font-family: sans-serif;
+  padding: 25px;
+}
+
+h1 {
+  margin-bottom: .5em;
 }
 
 .task-line {
@@ -16,4 +21,8 @@ body {
   border-radius: 5px;
   padding: 20px;
   margin-bottom: 1em;
+}
+
+.width-control {
+  width: 50%;
 }
