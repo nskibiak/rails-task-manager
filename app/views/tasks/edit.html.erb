@@ -10,6 +10,17 @@
     <%= f.text_field :details, class: 'form-control' %>
   </div>
 
+  <div class="form-group" style="display: flex">
+    <%= f.check_box :completed, class: 'custom-control custom-checkbox' %>
+    <%= f.label :completed, "&nbsp&nbspCompleted".html_safe %>
+  </div>
+
+<!-- BOOTSTRAP CHECKBOX
+  <div class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+      <label class="custom-control-label" for="defaultUnchecked">Default unchecked</label>
+  </div> -->
+
   <%= f.submit class: 'btn btn-primary' %>
 <% end %>
 </div>
